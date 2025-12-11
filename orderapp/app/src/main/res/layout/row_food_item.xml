@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txtFoodName"
+        android:layout_width="0dp"
+        android:layout_weight="1.2"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtFoodPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="8dp"/>
+
+    <ImageButton
+        android:id="@+id/btnMinus"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_media_previous"
+        android:contentDescription="減少"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    <TextView
+        android:id="@+id/txtQty"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="16sp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"/>
+
+    <ImageButton
+        android:id="@+id/btnAdd"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_media_next"
+        android:contentDescription="增加"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    <Button
+        android:id="@+id/btnAddCart"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="加入購物車"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
