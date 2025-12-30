@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="午餐想吃點什麼~"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp"/>
+
+    <Button
+        android:id="@+id/btnStartOrder"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="開始點餐"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnMyOrder"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="我的訂單"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="查看評論"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="登出"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>
